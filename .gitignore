@@ -1,0 +1,52 @@
+# R & RStudio 安装文件
+R-4.6.0/
+R-4.6.0-win.exe
+RStudio/
+RStudio-*.exe
+RStudio-*.zip
+
+# 中间临时文件
+knit.R
+make_ppt.js
+*.knit.md
+
+# R 临时文件
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# 课程考核原文件（已深度阅读，不属提交内容）
+R语言期末考核.html
+
+# 缓存
+.claude/
+__pycache__/
+*.pyc
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ZIP（最终手工打包即可）
+第X组_期末项目.zip
+
+# 临时图表与OCR文件
+*_preprocessed.png
+*_screenshot.png
+*_zoomed.png
+*_enhanced.png
+nonblack_*.png
+row_*.png
+crop_*.png
+1.png
+tessdata/
+
+# 待小组手工填写的文件（不公开）
+分工与互评.docx
+小组报告PPT.pptx
+
+# Playwright browser logs
+.playwright-mcp/
